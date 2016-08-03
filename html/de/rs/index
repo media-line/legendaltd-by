@@ -1,0 +1,55 @@
+{INSERT_FILE "sendrs/do/index.class"}
+<h1>Kosten berechnen</h1>
+<p style=" line-height:18px">Wer mindestens einmal bestellt unsere Transfer-Service, er wei?, wie man mit uns zu arbeiten ist von Vorteil nicht nur in Bezug auf Qualitat Lieferung von Massengutern, aber auch in Bezug auf die Kosten unserer Dienstleistungen. Au?erdem genugt es, mit anderen Unternehmen zu vergleichen, um zu verstehen, dass wir Transport von flussigem Material in Westeuropa, den GUS-Staaten (einschlie?lich in Belarus ) - Die gunstigsten.</p><br>
+<p style=" line-height:18px"><b>Aber wie Sie wissen, der Preis? </b></p>
+<p style=" line-height:18px">Nun Mal. Wenn Sie Interesse an den Kosten der Fracht sind, konnen wir es fur Sie berechnen. Sie fullen spetsformu Angabe der E-Mail und wir werden sie Tarife zu senden. Und nicht nur vollstandig die Berechnung der Finanzierungskosten fur uns, aber wie viele mussen fur den Transport von 1 km zu zahlen.</p> 
+<p style=" line-height:18px">Nach Erhalt einer E-Mail von uns, uberzeugen Sie sich, dass unsere Preise bewegen sich Nicht-Standard - Fracht RB, westeuropaischen Staaten, Russland, den GUS-Staaten - die meisten demokratischen. Jedoch preiswert - bedeutet nicht niedrige Qualitat, denn wir schatzen jeden unserer Kunden .</p><br />
+
+
+Wir berechnen die Kosten der Frachtbef&ouml;rderung nach Angaben, die in der Tabelle dargelegt sind. Je mehr Angaben wir bekommen, desto genauer ist der Preis. Bitte, vergessen Sie nicht, Ihre Kontaktangaben zu hinterlassen, damit wir uns in Verbindung mit Ihnen setzen k&ouml;nnen! Der Preis f&uuml;r die Frachtbef&ouml;rderung schicken wir auf Ihre E-Mail.<br /><br />
+Die markierten <span style="color:red">*</span> Felder sind bindend auszuf&uuml;llen<br /><br />
+
+<form action="rs" method="post" style="width:660px;font-size:12px;">
+<div>
+<p style="text-align:right;margin-bottom:5px;">G&uuml;terbezeichnung: <input type="text" name="cont[0]" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Gewicht (ò): <input type="text" name="cont[1]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Rauminhalt (m&sup3;): <input type="text" name="cont[2]" value="" maxlength="40"  style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Beladeort (Land, Stadt): <input type="text" name="cont[3]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Ausladeort (Land, Stadt): <input type="text" name="cont[4]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Fahrzeugtyp: <input type="text" name="cont[5]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Besonderheiten der Bef&ouml;rderung: <input type="text" name="cont[6]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Verladedatum: <input type="text" name="cont[7]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Vermerke: <input type="text" name="cont[8]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Firmenname: <input type="text" name="cont[9]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Postleitzahl: <input type="text" name="cont[10]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Stadt: <input type="text" name="cont[11]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Strasse: <input type="text" name="cont[12]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Ansprechspartner: <input type="text" name="cont[13]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Telefonnummer: <input type="text" name="cont[14]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Fax: <input type="text" name="cont[15]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">E-mail: <input type="text" name="cont[16]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;">Geben Sie die Pr&uuml;fschl&uuml;ssel an: <span style="color:#DA9E2C;">
+{INSERT_FILE "sendrs/index.class"} 
+</span>
+
+<input type="text" name="cont[17]" value="" maxlength="50" size="10" /> <span style="color:red">*</span></p><br/><br/>
+<div style="text-align:right;margin-right:10px"><input style="width:100px;" type="submit" value="Versenden" /></div>
+</div>
+</form><br />

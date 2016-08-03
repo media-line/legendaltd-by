@@ -1,0 +1,43 @@
+<h1>Fracht bef&ouml;rderungs geographie</h1>
+
+<div style="margin:80px 0 0 200px; height:250px;">
+
+<div style="float:left;">
+<b>GUS-Lander:</b>
+<ul style="padding-top:5px">
+ <li>Wei&szlig;russland</li>
+ <li>Russland</li>
+ <li>Ukraine</li>
+ <li>Moldau</li>
+ <li>Kasachstan</li>
+</ul>
+</div>
+
+<div style="float:left;margin-left:40px;">
+<b>Westeuropa:</b>
+<ul style="padding-top:5px">
+ <li>Deutschland</li>
+ <li>&Ouml;sterreich</li>
+ <li>Belgien</li>
+ <li>D&auml;nemark</li>
+ <li>Frankreich</li>
+ <li>Spanien</li>
+ <li>Schweiz</li>
+ <li>Polen</li>
+ <li>Tschechien</li>
+ <li>Ungarn</li>
+ <li>Italien</li>
+</ul>
+</div>
+
+<div style="float:left;margin-left:40px;">
+<b>Baltische Staaten:</b>
+<ul style="padding-top:5px">
+ <li>Litauen</li>
+ <li>Lettland</li>
+ <li>Estland</li>
+</ul>
+</div>
+</div>
+
+<a href="rs" class="rslink" >KOSTEN BERECHNEN</a>

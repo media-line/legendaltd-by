@@ -1,0 +1,49 @@
+<?php
+error_reporting(0);
+$cont=(isset($_REQUEST['cont'])) ? $_REQUEST['cont']:'';
+$cont_title=array('Наименование груза', 'Вес (т)', 'Объём (м&sup3)', 'Место загрузки (страна, город)', 'Место разгрузки (страна, город)', 'Тип авто', 'Особенности перевозки', 'Дата отгрузки', 'Примечания', 'Название фирмы', 'Почтовий индекс', 'Город', 'Улица', 'Контактное лицо', 'Контактный телефон', 'Факс', 'Контактный E-mail');
+
+$code=date("ydmh");
+
+if ($_REQUEST) {
+
+if ($cont[17]==$code) {
+
+if(isset($cont)){
+ for($i=0;$i<count($cont);$i++){
+  if($cont[$i]) {
+   $txt[]=$cont_title[$i]." : ".$cont[$i]."\r\n";
+  }
+ }
+}
+
+
+$txt=implode(" ", $txt);
+$tema="Рассчет стоимости для: ".$cont[9];
+if($txt){@mail("legenda@legendaltd.by", $tema , $txt); }
+echo '<center><br /><br /><br /><br /><br /><br /><br /><br /><br /><p class="send_done">Ваше сообщение отправлено.<br /><br /> Будем рады с Вами сотрудничать.</p><br /><br /><br /><br /><br /><br /><br /><br /><br /></center>';
+
+ echo '
+  <script type="text/javascript" language="javascript">setTimeout("refreshPage()",3000);
+   function refreshPage() { 
+    window.location.href="'.$_CONF['BASE_URL'].'rs/";
+   }
+  </script>
+ ';
+
+} else {
+
+echo '<center><br /><br /><br /><br /><br /><br /><br /><br /><br /><p class="send_error">Неверный контрольный код !</p><br /><br /><br /><br /><br /><br /><br /><br /><br /></center>';
+
+ echo '
+  <script type="text/javascript" language="javascript">setTimeout("refreshPage()",3000);
+   function refreshPage() { 
+    window.location.href="'.$_CONF['BASE_URL'].'rs/";
+   }
+  </script>
+ ';
+
+}
+    
+}	
+?>

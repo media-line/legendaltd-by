@@ -1,0 +1,105 @@
+<?php
+
+  /**
+   * Class DB_class
+   *
+   * @author PHPBB
+   * 
+   */
+  class DB_class {
+    var $db_conn_id;
+    var $db_query_result;
+    var $row=array();
+    /**
+       * Class DB_class's constructor
+       * 
+       *
+       */
+    function DB_class($sqlserver,$sqluser,$sqlpasswd,$sqldatabase){
+        $this->db_conn_id=@mysql_connect($sqlserver,$sqluser,$sqlpasswd);
+        if ($this->db_conn_id) {
+            if ($dbselect=@mysql_select_db($sqldatabase)) {
+                return $this->db_conn_id;
+            } else {
+                return FALSE;
+            }
+        } else {
+            return FALSE;
+        }
+    } // DB_class::DB_class()
+    
+    /**
+     * DB_query
+     *
+     */
+    function DB_query($query='') {
+        //echo $query;
+        if (!$this->db_query_result=@mysql_query($query,$this->db_conn_id)) {
+            return false;
+        } else {
+            return true;
+        } 
+    } // DB_query
+    /**
+     * DB_lastInsertId
+     *
+     */
+    function DB_lastInsertId($conn_id=0){
+        if (!$conn_id) {
+            $conn_id=$this->db_conn_id;
+        }
+        if ($conn_id) {
+            $result=@mysql_insert_id($conn_id);
+            return $result;
+        } else {
+            return FALSE;
+        }
+    } // DB_lastInsertId
+    
+    
+    /**
+     * DB_numRows
+     *
+     */
+    function DB_numRows($query_res=0){
+        if (!$query_res) {
+            $query_res=$this->db_query_result;
+        }
+        if ($query_res) {
+            $result=@mysql_num_rows($query_res);
+            return $result;
+        } else {
+            return FALSE;
+        }
+    } // DB_numRows
+    
+    
+    /**
+     * DB_fetchRow
+     *
+     */
+    function DB_fetchRow($query_res=0){
+        if (!$query_res) {
+            $query_res=$this->db_query_result;
+        }
+        if ($query_res) {
+            $result=@mysql_fetch_array($query_res);
+            return $result;
+        } else {
+            return FALSE;
+        }
+    } // DB_fetchRow
+    
+    
+    /**
+       * Class DB_class's destructor
+       *
+       */
+    function _DB_class(){
+        
+    } // DB_class::_DB_class()
+  
+    
+  } // DB_class Class
+    
+?>

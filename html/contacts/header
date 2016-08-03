@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Контактная информация ООО «ЛЕГЕНДА» </title>
+<meta content="Как связаться с ООО «ЛЕГЕНДА». Контактные телефоны, адреса, карта проезда." name="description" />
+<link href="styles/styles.css" type="text/css" rel="stylesheet" />
+<link rel="icon" href="http://www.legendaltd.by/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.legendaltd.by/favicon.ico" type="image/x-icon">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:500italic&subset=cyrillic' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+<!--
+function openWin(pageUrl,pageTitle,pageParam) {
+    var popWin=window.open(pageUrl,'',pageParam);
+}
+
+function openNew(imgUrl,pageTitle,pageParam) {
+    var popWin=window.open('','',pageParam);
+    var popWinDoc=popWin.document;
+    var contentPopWin="<html xmlns='http://www.w3.org/1999/xhtml' lang='en' xml:lang='en'><head><title>ООО «ЛЕГЕНДА» - Перевозка наливных грузов, перевозка опасных грузов, перевозка пищевых грузов, перевозка химических грузов</title></head><body><div><img src='"+ imgUrl +"' alt='ООО ЛЕГЕНДА' /></div></body></html>";
+
+    popWinDoc.write(contentPopWin);
+    popWinDoc.close;
+}
+//-->
+</script>
+
+</head>
+<body>

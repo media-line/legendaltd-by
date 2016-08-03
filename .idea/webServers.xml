@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="24d009c3-952a-4367-a039-4f36924c4391" name="legendaltd-by (1)" url="http://ftp.legendaltd.by">
+        <fileTransfer host="ftp.legendaltd.by" port="21" password="df9cdf9fdfebdfdadfc1dffddfcfdfd3dfc2dfcf" username="legendaltd">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

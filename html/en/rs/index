@@ -1,0 +1,54 @@
+{INSERT_FILE "sendrs/do/index.class"}
+<h1>Calculate the cost</h1>
+<p style=" line-height:18px">Who at least once ordered our transfer service, he knows how to work with us is beneficial not only in terms of quality delivery of bulk goods, but also in terms of the cost of our services. Moreover, it suffices to compare with other companies to understand that we Transportation of liquid material in Western Europe, the CIS countries ( <span style="font-weight: bold;">including in Belarus</span> ) - the cheapest.</p><br>
+<p style=" line-height:18px"><b>But how do you know the price? </b></p>
+<p style=" line-height:18px">Simply. If you are interested in the cost of freight, we can calculate it for you. You fill spetsformu indicating the e-mail and we will send it fares. And not only fully calculate the financial costs to us, but how many will have to pay for the transportation of 1 km.</p> 
+<p style=" line-height:18px">After receiving an email from us, see for yourself that our prices are moving non-standard cargo RB, West European states, Russia, the CIS - the most democratic. However, inexpensive - does not mean low quality, because we value every our client.</p><br />
+
+We make calculations of freight transportation based on the data filled in the table. The more complete data are provided &ndash; the more accurate is the cost. Do remember to provide precise contact details to ensure we can get in touch with you! The cost of the transportation will be sent to the specified e-mail.<br /><br />
+Required fields are marked with <span style="color:red">*</span><br /><br />
+
+<form action="rs" method="post" style="width:660px;font-size:12px;">
+<div>
+<p style="text-align:right;margin-bottom:5px;">Freight name: <input type="text" name="cont[0]" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Weight (t): <input type="text" name="cont[1]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Cubic displacement (m&sup3;): <input type="text" name="cont[2]" value="" maxlength="40"  style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Loading location (country, city): <input type="text" name="cont[3]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Unloading location (country, city): <input type="text" name="cont[4]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Vehicle type: <input type="text" name="cont[5]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Special transportation features: <input type="text" name="cont[6]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Shipment date: <input type="text" name="cont[7]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Notes: <input type="text" name="cont[8]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Company name: <input type="text" name="cont[9]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">P.O.box: <input type="text" name="cont[10]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">City: <input type="text" name="cont[11]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Street: <input type="text" name="cont[12]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Contact person: <input type="text" name="cont[13]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Phone: <input type="text" name="cont[14]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Fax: <input type="text" name="cont[15]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">E-mail: <input type="text" name="cont[16]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;">Please enter the control code : <span style="color:#DA9E2C;">
+{INSERT_FILE "sendrs/index.class"} 
+</span>
+
+<input type="text" name="cont[17]" value="" maxlength="50" size="10" /> <span style="color:red">*</span></p><br /><br />
+<div style="text-align:right;margin-right:10px"><input style="width:100px;" type="submit" value="Submit" /></div>
+</div>
+</form><br />

@@ -1,0 +1,88 @@
+{INSERT_FILE "send/do/index.class"}
+<div itemscope itemtype="http://schema.org/LocalBusiness">
+<h1>Контакты</h1>
+<img src="images/map.jpg" width="360px" height="360px" alt="схема проезда" style="float:right; border:1px solid #919AAB" />
+<div style="width:340px">
+<span itemprop="name">ООО «Легенда»</span><br /><br /><p style="margin-bottom:5px"><b>Юридический адрес:</b></p><p> Беларусь, 247760, Мозырский р-он,<br /> г. Мозырь, ул. Советская, 1,  д. Б. Зимовищи</p><br />
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><p style="margin-bottom:5px"><b>Почтовый адрес:</b></p> <p><span itemprop="addressCountry">Беларусь</span>, <span itemprop="postalCode">247760</span>, <span itemprop="addressRegion">Мозырский р-он</span>,<br /> <span itemprop="addressLocality">г. Мозырь</span>, <span itemprop="streetAddress">ул. Шоссейная</span>, 19</p></div>
+<br/>
+Тел.: <span itemprop="telephone">+ 375 236 33 71 75</span><br />
+Факс: <span itemprop="faxNumber">+ 375 236 33 71 94</span><br />
+Velcom: <span itemprop="telephone">+ 375 44 740 58 88</span><br />
+<br />
+
+<p style="margin-bottom:5px"><b>Директор:</b></p><p style="margin-bottom:5px">Жевняк Владимир Алексеевич</p>
+<p>Velcom: + 375 29 631 84 14<br />
+	МТС: + 375 29 730 37 23<br />
+Skype: legenda95<br />
+E-mail: <span itemprop="email">legenda@legendaltd.by</span>
+</p><br />
+
+<p style="margin-bottom:5px"><b>Гл. бухгалтер:</b></p><p style="margin-bottom:5px">Шилец Татьяна Ивановна</p>
+<p>Velcom: +375 29 536 33 40, +375 29 606 98 10<br />
+E-mail: gl.buh@legendaltd.by
+</p><br/>
+
+<p style="margin-bottom:5px"><b>Менеджер по перевозкам:</b></p><p style="margin-bottom:5px">Корнеевец Денис Владимирович</p>
+<p>Velcom: + 375 29 343 64 06<br />
+Skype: legenda.ltd<br />
+IСQ: 244706372<br />
+E-mail: denis@legendaltd.by
+</p><br />
+
+<p style="margin-bottom:5px"><b>Менеджер по перевозкам:</b></p><p style="margin-bottom:5px">Малащенко Александр Иванович</p>
+<p>Velcom: + 375 44 723 55 07<br />
+Skype: sasha-legenda<br />
+E-mail: Aleksandr@legendaltd.by
+</p><br />
+
+<p style="margin-bottom:5px"><b>Менеджер по перевозкам:</b></p><p style="margin-bottom:5px">Семененко Андрей Анатольевич</p>
+<p>Velcom: +375 44 765 48 55<br />
+Skype: andrei.legendaltd.by<br />
+ICQ: 696756975<br/>
+E-mail: andrei@legendaltd.by
+</p><br />
+
+<p style="margin-bottom:5px"><b>Экономист:</b></p><p style="margin-bottom:5px">Бобр Вячеслав Валентинович</p>
+<p>Velcom: + 375 29 108 73 85<br />
+E-mail: econom@legendaltd.by 
+</p><br />
+</p><br />
+
+<p style="margin-bottom:5px"><b>Российская компания:</b></p><p style="margin-bottom:5px">«ООО «ЮНЭКТ – Б»</p>
+<p>Адрес: Российская федерация, 241013 г. Брянск ул. Кромская, 54
+</p>
+<p>Тел./факс: + 7 4832 758798
+</p>
+<p>е-mail: unact-b@mail.ru
+</p>
+<p>Директор: Филиппов Олег Алексеевич<br>
+моб. телефон: + 7 960 5565269
+</p><br />
+</div>
+
+
+<br/>
+<div style="clear:both;">
+<p style="text-align:center;"><b>Форма отправки сообщения </b></p><br />
+
+<form action="contacts" method="post" style="width:710px;font-size:12px;">
+<div>
+<p style="text-align:right;margin-bottom:5px;">Ваше Ф.И.О. : <input type="text" name="cont[0]" maxlength="50" style="width:260px;" /></p>
+<p style="text-align:right;margin-bottom:5px;">Ваш E-Mail : <input class="inputback" type="text" name="cont[1]" value="" maxlength="50" style="width:260px;" /></p>
+<p style="text-align:right;margin-bottom:5px;">Тел/факс с кодом города : <input type="text" name="cont[2]" value="" maxlength="40"  style="width:260px;" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Тема сообщения : <input type="text" name="cont[3]" value="" maxlength="50" style="width:260px;" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Текст сообщения :<br /><textarea class="inputback" name="cont[4]" style="width:650px;height:100px;max-width:650px;max-height:100px;" rows="50" cols="50"></textarea></p>
+
+<p style="text-align:right;">Введите контрольный код : <span style="color:#DA9E2C">
+{INSERT_FILE "send/index.class"} 
+</span>
+
+<input class="inputback" type="text" name="cont[5]" value="" maxlength="50" size="10" /></p><br /><br />
+<div style="text-align:center;"><input style="width:100px;" type="submit" value="Отправить" name="submit" /></div>
+</div>
+</form>
+</div>
+</div>

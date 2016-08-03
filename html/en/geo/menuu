@@ -1,0 +1,13 @@
+<div id="m">
+   <ul>
+    <li><a href="en">HOME</a></li>
+    <li><a href="en/services">SERVICES</a></li>
+    <li><a href="en/auto">OUR TRUCK FLEET</a></li>
+    <li><a href="en/geo">GEOGRAPHY</a></li>
+    <li><a href="en/rs">CALCULATE THE COST</a></li>
+    <li><a href="en/contacts">CONTACTS</a></li>
+   </ul>
+  </div>
+  <div id="i">
+   <div id="ct">
+    <div id="ctt" style="background:url(images/earth.gif) 70px 20px no-repeat">

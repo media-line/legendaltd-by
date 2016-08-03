@@ -1,0 +1,49 @@
+<?php
+error_reporting(0);
+$cont=(isset($_REQUEST['cont'])) ? $_REQUEST['cont']:'';
+$cont_title=array('Ф.И.О.', 'E-Mail', 'Телефон / Факс', 'Сообщение');
+
+$code=date("ydmh");
+
+if ($_REQUEST) {
+
+if ($cont[5]==$code) {
+
+if(isset($cont)){
+ for($i=0;$i<count($cont);$i++){
+  if($cont[$i]) {
+   $txt[]=$cont_title[$i]." : ".$cont[$i]."\r\n";
+  }
+ }
+}
+
+
+$txt=implode(" ", $txt);
+$tema="Сообщение с сайта: ".$cont[3];
+if($txt){@mail("opsis@uvaga.by", $tema , $txt); }
+echo '<center><br /><br /><br /><br /><br /><br /><br /><br /><br /><p class="send_done">Danke!</p><br /><br /><br /><br /><br /><br /><br /><br /><br /></center>';
+
+ echo '
+  <script type="text/javascript" language="javascript">setTimeout("refreshPage()",3000);
+   function refreshPage() { 
+    window.location.href="'.$_CONF['BASE_URL'].'de/contacts/";
+   }
+  </script>
+ ';
+
+} else {
+
+echo '<center><br /><br /><br /><br /><br /><br /><br /><br /><br /><p class="send_error">Falsche Steuerzeichen!</p><br /><br /><br /><br /><br /><br /><br /><br /><br /></center>';
+
+ echo '
+  <script type="text/javascript" language="javascript">setTimeout("refreshPage()",3000);
+   function refreshPage() { 
+    window.location.href="'.$_CONF['BASE_URL'].'de/contacts/";
+   }
+  </script>
+ ';
+
+}
+  
+}  
+?>

@@ -1,0 +1,47 @@
+<div id="cc">
+<div id="c">
+  <div id="h">
+   <div id="himg">
+    <div id="im1"></div>
+	<div id="im2"></div>
+	<div id="im3"></div>
+	<div id="im4"></div>
+	<div id="im5"></div>
+	<div id="im6"></div>
+	<div id="im7"></div>
+	<div id="im8"></div>
+	<div id="im9"></div>
+	<div id="im10"></div>
+	<div id="im11"></div>
+	<div id="im12"></div>
+	<div id="im13"></div>
+	<div id="im14"></div>
+	<div id="im15"></div>
+   </div>
+   <!-- <img src="images/hdr.jpg" width="584px" height="426px" alt="��� �������" id="himg" /> -->
+   <img src="images/logo_tr.png" alt="OOO Legenda" id="legenda" style="right: 65px;" />
+   <div id="dec_de1"><a href="de/services" title="Flussigkeitstransport" id="b1" class="head_menu"><i>FLUSSIGKEITSTRANSPORT</i></a></div>
+   <div id="dec_de2"><a href="de/services" title="Guterspedition" id="b2" class="head_menu"><i>GUTERSPEDITION</i></a></div>
+   <div id="dec_de3"><a href="de/services" title="Transportlogistik" id="b3" class="head_menu"><i>TRANSPORTLOGISTIK</i></a></div>
+ 
+    <div class="head_address">
+        <img src="images/here.png" class="head_here">
+		<img src="images/phone.png" class="head_phone">
+		<div>
+		    <i>Republik Belarus,<br>
+			<strong>Mozyr, Schossejnaja-Str., 19</strong><br>
+			+375 236 <strong>33 71 75</strong></i>		
+		</div>
+    </div>  
+ 
+      <div class="block-sert">
+
+          <img class="zoom a1" width="200" src="images/l1.jpg" alt="Свидетельство члена БАМАП" />
+          <img class="zoom a2" width="200" src="images/liz1.jpg" alt="Лицензия на экспедирование" />
+          <img class="zoom a3" width="200" src="images/ADR.jpg" alt="Свидетельство  о  допуске  к перевозке опасных грузов" />
+      </div>
+   
+   <a href="" style="position:absolute; left:38px" title="Russisch"><img src="images/lang_ru.gif" alt="" /></a>
+   <a href="en/" style="position:absolute; left:65px" title="English"><img src="images/lang_en.gif" alt="" /></a>
+   <a href="de/" style="position:absolute; left:92px" title="Deutsch"><img src="images/lang_de.gif" alt="" /></a>
+  </div>

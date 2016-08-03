@@ -1,0 +1,57 @@
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">1</li>
+    <li data-target="#carousel-example-generic" data-slide-to="1">2</li>
+    <li data-target="#carousel-example-generic" data-slide-to="2">3</li>
+	<li data-target="#carousel-example-generic" data-slide-to="3">4</li>
+	<li data-target="#carousel-example-generic" data-slide-to="4">5</li>
+	<li data-target="#carousel-example-generic" data-slide-to="5">6</li>
+	<li data-target="#carousel-example-generic" data-slide-to="6">7</li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/slider/de-en/kp_1.jpg">
+    </div>
+    <div class="item">
+      <img src="images/slider/de-en/kp_2.jpg">
+    </div>
+	<div class="item">
+      <img src="images/slider/de-en/kp_3.jpg">
+    </div>
+	<div class="item">
+      <img src="images/slider/de-en/kp_4.jpg">
+    </div>
+	<div class="item">
+      <img src="images/slider/de-en/kp_5.jpg">
+    </div>
+	<div class="item">
+      <img src="images/slider/de-en/kp_6.jpg">
+    </div>
+	<div class="item">
+      <img src="images/slider/de-en/kp_7.jpg">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+
+<h1>Home</h1>
+<p style=" line-height:18px">Ltd. "Legend" was established in 1997, is engaged in international cargo transportation since 2000. Our company is member of the Association of International Road Carriers "BAMAP".</p><br>
+<p style=" line-height:18px"><b>With us - all of Europe and the CIS</b></p>
+<p style=" line-height:18px">Today, we are entering into the lead among registered in Belarus companies that carry cargo, using the bulk tanker. Our company carries all kinds of liquid. In particular, we propose to transport of dangerous goods (liquid) 3, 5.1, 6.1, 6.2, 8 and 9 years of road. Among our clients - leading manufacturers of chemical and food products in Europe and the CIS countries, but also works on the RB - in Minsk, Mozyr, Vitebsk and other cities. For example, if a large amount of liquid cargoes delivered to Belarus - we are at your service! No problem for us to carry small loads as 3 tons in Minsk or any other city in Europe, as well as a 20-ton load.</p><br>
+<p style=" line-height:18px"><b>Image and Partnership</b></p> 
+<p style=" line-height:18px">During the work we have been able to balance the driving and technical staff. We also care about the image component and its activities, so the company has its own website cargo, where about us and our services, you can find detailed information. Thanks to the experienced guidance and constructive approach we have gained a lot of experience. We have established partnerships with many companies and manufacturers of chemical and food production - as with West, and with those who are registered in the CIS countries.</p><br>
+<p style=" line-height:18px"><b>Representation in Bryansk</b></p>
+<p style=" line-height:18px">On the development of our company suggests the presence of Bryansk subsidiary - LLC "Yunekt - B". As the parent, it provides a full range of services (including selection of the client), has available for road transport transport any volume of liquid cargo.<br></br>
+We have calculated the best route on which delivery is carried out in the shortest possible time. The client receives an accurate calculation of the cost of transportation. Throughout her over the customer can be quiet for the cargo, as we carry out round the clock control of cargo delivered to the inlet and insure every shipment. Collaborate with partners in the EU that are registered and operate in the TIR-EPD, engaged in customs processing and dispatch.   
+</p>

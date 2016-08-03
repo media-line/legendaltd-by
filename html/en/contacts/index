@@ -1,0 +1,89 @@
+{INSERT_FILE "send/do/index.class"}
+<div itemscope itemtype="http://schema.org/LocalBusiness">
+<h1>Contacts</h1>
+<img src="images/map.jpg" width="360px" height="360px" alt="map" style="float:right; border:1px solid #919AAB" />
+<div style="width:340px">
+<span itemprop="name">OOO Legenda</span><br /><br /><p style="margin-bottom:5px"><b>Legal address:</b></p><p>The Republic of Belarus, 247760, Mozyr region,<br /> Mozyr, 1, Sovetskaya St., B. Zimovischi vill.</p><br />
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><p style="margin-bottom:5px"><b>Postal address:</b></p> <p><span itemprop="addressCountry">The Republic of Belarus</span>, <span itemprop="postalCode">247760</span>, <span itemprop="addressRegion">Mozyr region</span>,<br /> <span itemprop="addressLocality">Mozyr</span>, 19, <span itemprop="streetAddress">Shosseynaya St.</span></p>
+<br/>
+Phone: <span itemprop="telephone">+ 375 236 33 71 75</span><br />
+Fax: <span itemprop="faxNumber">+ 375 236 33 71 94</span><br />
+Velcom: <span itemprop="telephone">+ 375 44 740 58 88</span><br />
+<br/>
+
+<p style="margin-bottom:5px"><b>Director:</b></p><p style="margin-bottom:5px">Zhevnyak Vladimir Alekseyevich</p>
+<p>Velcom: + 375 29 631 84 14<br />
+	MTS: + 375 29 730 37 23<br/>
+Skype: legenda95<br/>
+E-mail: <span itemprop="email">legenda@legendaltd.by</span>
+</p><br/>
+
+<p style="margin-bottom:5px"><b>Chief Accountant:</b></p><p style="margin-bottom:5px">Shilets Tatiana Ivanovna</p>
+<p>Velcom: +375 29 536 33 40, +375 29 606 98 10<br/>
+<img src="images/email_gl.buh.gif" style="margin-top:2px;" alt=""/>
+</p><br/>
+
+<p style="margin-bottom:5px"><b>Transportation Manager:</b></p><p style="margin-bottom:5px">Korneyevets Denis Vladimirovich</p>
+<p>Velcom: + 375 29 343 64 06<br/>
+Skype: legenda.ltd<br/>
+ICQ: 244706372<br/>
+<img src="images/email_denis.gif" style="margin-top:2px;" alt=""/>
+</p><br/>
+
+<p style="margin-bottom:5px"><b>Transportation Manager:</b></p><p style="margin-bottom:5px">Malaschenko Alexandr Ivanovich</p>
+<p>Velcom: + 375 44 723 55 07<br/>
+Skype: sasha-legenda<br/>
+e-mail: Aleksandr@legendaltd.by<br/>
+</p><br/>
+
+<p style="margin-bottom:5px"><b>Logistics manager:</b></p><p style="margin-bottom:5px">Andrei Semianenka</p>
+<p>Velcom: +375 44 765 48 55<br/>
+Skype: andrei.legendaltd.by<br/>
+e-mail: andrei@legendaltd.by<br/>
+ICQ: 696756975<br/>
+</p><br/>
+
+<p style="margin-bottom:5px"><b>Economist:</b></p><p style="margin-bottom:5px">Bobr Viacheslav Valentinovich</p>
+<p>Velcom: + 375 29 108 73 85<br/>
+E-mail: ekonom@legendaltd.by
+</p><br/>
+
+<p style="margin-bottom:5px"><b>Russian company:</b></p><p style="margin-bottom:5px">"OOO "UNECT - B"</p>
+<p>Address: Russian Federation, 241013, Bryansk, Kromskaya st., 54
+</p>
+<p>Tel/Fax: + 7 4832 758798
+</p>
+<p>e-mail: unact-b@mail.ru
+</p>
+<p>Director: Phillip Oleg Alexeevich<br>
+Mobile: + 7 960 5565269
+</p><br />
+
+
+</div>
+
+
+<br/>
+<div style="clear:both;">
+<p style="text-align:center;"><b>Request form:</b></p><br />
+
+<form action="contacts" method="post" style="width:710px;font-size:12px;">
+<div>
+<p style="text-align:right;margin-bottom:5px;">Your full name: <input type="text" name="cont[0]" maxlength="50" style="width:260px;" /></p>
+<p style="text-align:right;margin-bottom:5px;">Your E-Mail: <input class="inputback" type="text" name="cont[1]" value="" maxlength="50" style="width:260px;" /></p>
+<p style="text-align:right;margin-bottom:5px;">Phone/fax with extension: <input type="text" name="cont[2]" value="" maxlength="40"  style="width:260px;" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Message subject: <input type="text" name="cont[3]" value="" maxlength="50" style="width:260px;" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Message text:<br /><textarea class="inputback" name="cont[4]" style="width:650px;height:100px;max-width:650px;max-height:100px;" rows="50" cols="50"></textarea></p>
+
+<p style="text-align:right;">Please enter the control code: <span style="color:#DA9E2C">
+{INSERT_FILE "send/index.class"} 
+</span>
+
+<input class="inputback" type="text" name="cont[5]" value="" maxlength="50" size="10" /></p><br/><br/>
+<div style="text-align:center;"><input style="width:100px;" type="submit" value="Submit" /></div>
+</div>
+</form>
+</div>
+</div>

@@ -1,0 +1,44 @@
+
+<h1>География автоперевозок</h1>
+
+<div style="margin:80px 0 0 200px; height:250px;">
+
+<div style="float:left;">
+<b>Страны СНГ:</b>
+<ul style="padding-top:5px">
+ <li>Беларусь</li>
+ <li>Россия</li>
+ <li>Украина</li>
+ <li>Молдова</li>
+ <li>Казахстан</li>
+</ul>
+</div>
+
+<div style="float:left;margin-left:40px;">
+<b>Западная Европа:</b>
+<ul style="padding-top:5px">
+ <li>Германия</li>
+ <li>Австрия</li>
+ <li>Бельгия</li>
+ <li>Дания</li>
+ <li>Франция</li>
+ <li>Испания</li>
+ <li>Швейцария</li>
+ <li>Польша</li>
+ <li>Чехия</li>
+ <li>Венгрия</li>
+ <li>Италия</li>
+</ul>
+</div>
+
+<div style="float:left;margin-left:40px;">
+<b>Страны Балтии:</b>
+<ul style="padding-top:5px">
+ <li>Литва</li>
+ <li>Латвия</li>
+ <li>Эстония</li>
+</ul>
+</div>
+</div>
+
+<a href="rs" class="rslink" >РАССЧИТАТЬ СТОИМОСТЬ</a>

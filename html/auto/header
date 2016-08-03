@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Наш автопарк </title>
+<meta content="?????????? ????????? ??? ?????????. ???? ?????? ?????? ????????? ???????? ????? ? ????? ????? ??????. " name="description" />
+<link href="styles/styles.css" type="text/css" rel="stylesheet" />
+<link rel="icon" href="http://www.legendaltd.by/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.legendaltd.by/favicon.ico" type="image/x-icon">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:500italic&subset=cyrillic' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+<!--
+function openWin(pageUrl,pageTitle,pageParam) {
+    var popWin=window.open(pageUrl,'',pageParam);
+}
+
+function openNew(imgUrl,pageTitle,pageParam) {
+    var popWin=window.open('','',pageParam);
+    var popWinDoc=popWin.document;
+    var contentPopWin="<html xmlns='http://www.w3.org/1999/xhtml' lang='en' xml:lang='en'><head><title>??? ????????? - ????????? ???????? ??????, ????????? ??????? ??????, ????????? ??????? ??????, ????????? ?????????? ??????</title></head><body><div><img src='"+ imgUrl +"' alt='??? ???????' /></div></body></html>";
+
+    popWinDoc.write(contentPopWin);
+    popWinDoc.close;
+}
+//-->
+</script>
+    <style>
+        img.zoom {
+            -moz-user-select: none; user-select: none;
+        }
+        img.zoom:hover {
+            display: block;
+            position: fixed;
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+            width: auto;
+            height: auto;
+            max-width: 99%;
+            max-height: 99%;
+            border: solid rgba(210,210,210,.4);
+            border-width: 100vh 100vw;
+            cursor: zoom-out;
+        }
+        :not(:active) > img.zoom:not(:hover), img.zoom:active {
+            pointer-events: none;
+        }
+        /* не идеально: transition-property не поддерживает свойство position. В результате, если переключить вкладку браузера, то картинка становится вновь маленькой. */
+    </style>
+</head>
+<body>
+

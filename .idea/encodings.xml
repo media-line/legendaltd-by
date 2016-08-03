@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/html/auto/header" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/html/auto/index" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/html/de/auto/header" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/html/de/auto/index" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/html/index" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/html/top" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/main/template.php" charset="windows-1251" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+<div id="cc">
+<div id="c">
+  <div id="h">
+   <div id="himg">
+    <div id="im1"></div>
+	<div id="im2"></div>
+	<div id="im3"></div>
+	<div id="im4"></div>
+	<div id="im5"></div>
+	<div id="im6"></div>
+	<div id="im7"></div>
+	<div id="im8"></div>
+	<div id="im9"></div>
+	<div id="im10"></div>
+	<div id="im11"></div>
+	<div id="im12"></div>
+	<div id="im13"></div>
+	<div id="im14"></div>
+	<div id="im15"></div>
+   </div>
+   
+   <img src="images/logo_tr.png" style="right: 65px;" alt="OOO Legenda" id="legenda" />
+   <div id="dec_en1"><a href="en/services" title="Bulk goods transportation" id="b1" class="head_menu"><i>BULK GOODS TRANSPORTATION</i></a></div>
+   <div id="dec_en2"><a href="en/services" title="Freight forwarding" id="b2" class="head_menu"><i>FREIGHT FORWARDING</i></a></div>
+   <div id="dec_en3"><a href="en/services" title="Transport logistics" id="b3" class="head_menu"><i>TRANSPORT LOGISTICS</i></a></div>
+   
+    <div class="head_address">
+        <img src="images/here.png" class="head_here">
+		<img src="images/phone.png" class="head_phone">
+		<div>
+		    <i>The Republic of Belarus,<br>
+			<strong>Mozyr, Shosseynaya St., 19</strong><br>
+			+375 236 <strong>33 71 75</strong></i>		
+		</div>
+    </div>  
+   
+      <div class="block-sert">
+          <img class="zoom a1" width="200" src="images/l1.jpg" alt="Свидетельство члена БАМАП" />
+          <img class="zoom a2" width="200" src="images/liz1.jpg" alt="Лицензия на экспедирование" />
+          <img class="zoom a3" width="200" src="images/ADR.jpg" alt="Свидетельство  о  допуске  к перевозке опасных грузов" />
+      </div>
+
+   <a href="" style="position:absolute; left:38px" title="Russian"><img src="images/lang_ru.gif" alt="" /></a>
+   <a href="en/" style="position:absolute; left:65px" title="English"><img src="images/lang_en.gif" alt="" /></a>
+   <a href="de/" style="position:absolute; left:92px" title="Deutsch"><img src="images/lang_de.gif" alt="" /></a>
+   
+  </div>

@@ -1,0 +1,53 @@
+{INSERT_FILE "sendrs/do/index.class"}
+<h1>Рассчитать стоимость</h1>
+<p style=" line-height:18px">Кто хотя бы однажды заказывал у нас транспорт, тот прекрасно знает, насколько с нами выгодно сотрудничать не только в плане качественной доставки наливных грузов, но и в плане затрат на наши услуги. Причём достаточно сравнить с другими компаниями, чтобы понять, что у нас транспортировка наливного материала по Западной Европе, странам СНГ (в том числе и по Беларуси) – самая дешёвая.</p><br>
+<p style=" line-height:18px"><b>Но как узнать цену? </b></p>
+<p style=" line-height:18px">Просто. Если интересует стоимость грузоперевозок, то мы можем для Вас её рассчитать. Вы заполняете спецформу с указанием е-майла, а мы на него пришлём тарифы. Причём рассчитаем не только полностью финансовые траты на нас, но и то, сколько надо будет заплатить за 1 км перевозки.</p> 
+<p style=" line-height:18px">Получив от нас письмо, сами убедитесь, что наши цены перемещения нестандартного груза по РБ, западноевропейским государствам, России, СНГ – наиболее демократичные. Однако недорого – не значит некачественно, потому что мы дорожим каждым нашим клиентом.</p><br />
+
+Производим расчёт стоимости перевозки грузов по данным, заполненным в таблице. Чем больше данных - тем точнее стоимость. Не забывайте оставить точные контакты для связи с вами! Стоимость перевозки будет выслана на указанный e-mail.<br /><br />
+Поля отмеченные <span style="color:red">*</span>, обязательны для заполнения<br /><br />
+<form action="rs" method="post" style="width:660px;font-size:12px;">
+<div>
+<p style="text-align:right;margin-bottom:5px;">Наименование груза: <input type="text" name="cont[0]" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Вес (т): <input type="text" name="cont[1]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Объём (м&sup3;): <input type="text" name="cont[2]" value="" maxlength="40"  style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Место загрузки (страна, город): <input type="text" name="cont[3]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Место разгрузки (страна, город): <input type="text" name="cont[4]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Тип авто: <input type="text" name="cont[5]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Особенности перевозки: <input type="text" name="cont[6]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Дата отгрузки: <input type="text" name="cont[7]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Примечания: <input type="text" name="cont[8]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Название фирмы: <input type="text" name="cont[9]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Почтовый индекс: <input type="text" name="cont[10]" value="" maxlength="50" style="width:260px;margin-right:12px" /></p>
+
+<p style="text-align:right;margin-bottom:5px;">Город: <input type="text" name="cont[11]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Улица: <input type="text" name="cont[12]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Контактное лицо: <input type="text" name="cont[13]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Контактный телефон: <input type="text" name="cont[14]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Факс: <input type="text" name="cont[15]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;margin-bottom:5px;">Контактный E-mail: <input type="text" name="cont[16]" value="" maxlength="50" style="width:260px;" /> <span style="color:red">*</span></p>
+
+<p style="text-align:right;">Введите контрольный код : <span style="color:#DA9E2C;">
+{INSERT_FILE "sendrs/index.class"} 
+</span>
+
+<input type="text" name="cont[17]" value="" maxlength="50" size="10" /> <span style="color:red">*</span></p><br /><br />
+<div style="text-align:right;margin-right:10px"><input style="width:100px;" type="submit" value="Отправить" /></div>
+</div>
+</form><br />
